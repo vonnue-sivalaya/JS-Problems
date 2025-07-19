@@ -141,7 +141,7 @@ function swapString(str) {
   const newString = [];
   for (let i = 0; i < swapedArray.length; i++) {
     console.log(swapedArray[i]);
-    console.log(i, 'i')
+    const array = swapedArray[i]
   }
 }
 
