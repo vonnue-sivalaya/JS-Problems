@@ -142,7 +142,10 @@ function swapString(str) {
   for (let i = 0; i < swapedArray.length; i++) {
     console.log(swapedArray[i]);
     const array = swapedArray[i]
+    const newArray = []
   }
 }
 
 swapString(swapTestString);
+
+
