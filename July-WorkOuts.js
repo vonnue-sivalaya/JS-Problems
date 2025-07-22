@@ -139,10 +139,11 @@ const swapTestString = 'Hello';
 function swapString(str) {
   swapedArray = str.split('');
   const newString = [];
+  const temp = swapedArray[-1];
+  const a = swapedArray[0];
   for (let i = 0; i < swapedArray.length; i++) {
     console.log(swapedArray[i]);
-    const array = swapedArray[i]
-    const newArray = []
+    
   }
 }
 
