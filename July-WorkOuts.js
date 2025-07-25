@@ -143,10 +143,16 @@ function swapString(str) {
   const a = swapedArray[0];
   for (let i = 0; i < swapedArray.length; i++) {
     console.log(swapedArray[i]);
-    
   }
 }
 
 swapString(swapTestString);
 
-
+function swapStrings(string) {
+  swapArray = string.split('');
+  const firstLetter = swapArray[0]
+  const lastLetter = swapArray[-1]
+  swapArray.splice(0, 1)
+  swapArray.splice(-1, 1)
+  swapArray.push(firstLetter)
+}
