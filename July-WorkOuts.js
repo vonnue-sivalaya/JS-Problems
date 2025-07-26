@@ -105,7 +105,7 @@ function countPositive(arr) {
   console.log(count);
 }
 
-countPositive(array);
+// countPositive(array);
 
 // 8.
 // Reverse a string
@@ -121,7 +121,7 @@ function reverseString(string) {
   console.log(newString.join(''));
 }
 
-reverseString(string);
+// reverseString(string);
 
 // 10.
 // Replace the charecter of a string.
@@ -129,7 +129,7 @@ reverseString(string);
 const str = 'The red cat';
 
 const newStr = str.replace('red', 'blue');
-console.log(newStr);
+// console.log(newStr);
 
 // 11.
 // Swap Last and End letters
@@ -146,13 +146,24 @@ function swapString(str) {
   }
 }
 
-swapString(swapTestString);
+// swapString(swapTestString);
 
 function swapStrings(string) {
   swapArray = string.split('');
-  const firstLetter = swapArray[0]
-  const lastLetter = swapArray[-1]
-  swapArray.splice(0, 1)
-  swapArray.splice(-1, 1)
-  swapArray.push(firstLetter)
+  const firstLetter = swapArray[0];
+  const lastLetter = swapArray[-1];
+  swapArray.splice(0, 1);
+  swapArray.splice(-1, 1);
+  swapArray.push(firstLetter);
 }
+
+// function to add items to an array without
+function addItem() {
+  const RufArray = [];
+  for (let i = 1; i <= 10; i++) {
+    RufArray.push(i);
+    console.log(RufArray, 'i value in the array.');
+  }
+}
+
+addItem();
