@@ -155,15 +155,6 @@ function swapStrings(string) {
   swapArray.splice(0, 1);
   swapArray.splice(-1, 1);
   swapArray.push(firstLetter);
+  console.log(swapArray);
 }
-
-// function to add items to an array without
-function addItem() {
-  const RufArray = [];
-  for (let i = 1; i <= 10; i++) {
-    RufArray.push(i);
-    console.log(RufArray, 'i value in the array.');
-  }
-}
-
-addItem();
+swapStrings('Hello');
