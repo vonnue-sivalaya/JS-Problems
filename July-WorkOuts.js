@@ -134,27 +134,18 @@ const newStr = str.replace('red', 'blue');
 // 11.
 // Swap Last and End letters
 
-const swapTestString = 'Hello';
-
-function swapString(str) {
-  swapedArray = str.split('');
-  const newString = [];
-  const temp = swapedArray[-1];
-  const a = swapedArray[0];
-  for (let i = 0; i < swapedArray.length; i++) {
-    console.log(swapedArray[i]);
-  }
-}
-
-// swapString(swapTestString);
-
 function swapStrings(string) {
   swapArray = string.split('');
   const firstLetter = swapArray[0];
-  const lastLetter = swapArray[-1];
+  const lastLetter = swapArray.at(-1);
+  console.log(lastLetter, 'last');
   swapArray.splice(0, 1);
   swapArray.splice(-1, 1);
   swapArray.push(firstLetter);
+  swapArray.unshift(lastLetter);
   console.log(swapArray);
 }
 swapStrings('Hello');
+
+// 12.
+// swap items f
