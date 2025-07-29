@@ -145,7 +145,4 @@ function swapStrings(string) {
   swapArray.unshift(lastLetter);
   console.log(swapArray);
 }
-swapStrings('Hello');
-
-// 12.
-// swap items f
+swapStrings('Hello World!');
