@@ -146,3 +146,4 @@ function swapStrings(string) {
   console.log(swapArray);
 }
 swapStrings('Hello World!');
+swapStrings('Malayalam');
