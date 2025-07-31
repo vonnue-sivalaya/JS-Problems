@@ -126,9 +126,9 @@ function reverseString(string) {
 // 10.
 // Replace the charecter of a string.
 
-const str = 'The red cat';
+const replacableString = 'The red cat';
 
-const newStr = str.replace('red', 'blue');
+const newStr = replacableString.replace('red', 'blue');
 // console.log(newStr);
 
 // 11.
@@ -146,4 +146,3 @@ function swapStrings(string) {
   console.log(swapArray);
 }
 swapStrings('Hello World!');
-swapStrings('Malayalam');
