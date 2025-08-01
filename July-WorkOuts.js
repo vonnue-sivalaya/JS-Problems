@@ -146,3 +146,19 @@ function swapStrings(string) {
   console.log(swapArray);
 }
 swapStrings('Hello World!');
+
+function convertZeroToEnd(arr) {
+  let string = '';
+  const stringToString = arr.toString();
+  const array = Array.from(stringToString);
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == 0) {
+      array.push(array[i]);
+      array.splice(i, 1);
+    }
+  }
+  for (let i = 0; i < array.length; i++) {
+    string += array[i];
+  }
+  console.log(string);
+}
