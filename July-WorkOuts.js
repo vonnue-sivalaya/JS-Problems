@@ -162,17 +162,3 @@ function convertZeroToEnd(arr) {
   }
   console.log(string);
 }
-
-// status - 02/08/2025
-// Typing     : [45wpm] [98%]
-// Focus      : [12hr 43min] [1984hr 46min]
-// CT         : [11hr 44min] [1816hr 11min]
-// ACT        : [08hr 44min] [1594hr 37min]
-// HTML       : [00] [4741]
-// CSS        : [00] [17564]
-// JS         : [06] [13518]
-// TS         : [04] [329]
-// Vue        : [125] [5778]
-// JSON       : [00] [48]
-// Total      : [106] [41828]
-// Day        : 08
